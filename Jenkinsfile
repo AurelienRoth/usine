@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Message') {
+    stage('Build') {
       steps {
-        echo 'Hello World depuis BlueOcean !!'
+        build 'hw-usine'
       }
     }
 
